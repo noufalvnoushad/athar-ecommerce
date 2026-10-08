@@ -1,0 +1,8 @@
+<h2>Athar Categories</h2>
+
+@for (category of categories; track category._id) {
+  <div>
+    <h3>{{ category.name }}</h3>
+    <p>{{ category.description }}</p>
+  </div>
+}
